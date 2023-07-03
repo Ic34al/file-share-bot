@@ -29,7 +29,7 @@ PORT =  "8080"
 
 #Database 
 DB_URI =  "mongodb+srv://Animedbuser:1234@cluster0.xgasqci.mongodb.net/?retryWrites=true&w=majority"
-DB_NAME = "DATABASE_NAME", "Animedbuser"
+DB_NAME =  "Animedbuser"
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
